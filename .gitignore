@@ -1,13 +1,12 @@
-.gradle
-build/
+/.gradle/
+**/build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
+!**/src/*Main/**/build/
+!**/src/*Test/**/build/
 
-### IntelliJ IDEA ###
-.idea/
-!**/src/main/**/out/
-!**/src/test/**/out/
+/.idea/
 
 ### Mac OS ###
 .DS_Store
